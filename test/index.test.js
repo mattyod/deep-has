@@ -31,7 +31,7 @@ describe('Deep-has', sandbox(function () {
         boom: {
             bosh: {
                 bish: {
-                    bash: true
+                    bash: "true"
                 }
             }
         }
