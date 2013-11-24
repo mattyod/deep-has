@@ -19,11 +19,13 @@ var obj = {
 var x = has(obj, 'bar');
 ```
 
-**x** would eqaul:
+**x** would be:
 
 ```
 [
-    { 'foo.bar': '123' },
-    { 'bar': false }
+    { 'bar': false },
+    { 'foo.bar': '123' }
 ]
 ```
+
+The tests also provide further insight.
