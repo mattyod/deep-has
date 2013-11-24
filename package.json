@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mattyod/deep-has.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/mattyod/deep-has/issues"
   },
   "dependencies": {},
   "devDependencies": {
