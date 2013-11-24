@@ -1,0 +1,26 @@
+{
+  "name": "deep-has",
+  "description": "Find and return paths to keys within objects no matter where",
+  "version": "0.0.1",
+  "keywords": ["object", "has", "deep", "keys"],
+  "author": {
+    "name": "Matthew O'Donoghue"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.14.x",
+    "sinon": "1.7.x",
+    "chai": "1.8.x",
+    "sinon-chai": "2.4.x"
+  },
+  "scripts": {
+      "test": "mocha --reporter tap test"
+  }
+}
