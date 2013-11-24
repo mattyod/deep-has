@@ -1,4 +1,4 @@
-# Deep has
+# Deep has [![Build Status](https://travis-ci.org/mattyod/deep-has.png?branch=master)](https://travis-ci.org/mattyod/deep-has)
 
 Find all instances of a specified key within a given object.
 
