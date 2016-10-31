@@ -1,8 +1,9 @@
 'use strict';
 
+require('chai').should();
 var has = require('../index.js');
 
-describe('Deep-has', sandbox(function () {
+describe('deep-has', function () {
     var res, obj;
 
     obj = {
@@ -31,7 +32,7 @@ describe('Deep-has', sandbox(function () {
         boom: {
             bosh: {
                 bish: {
-                    bash: "true"
+                    bash: 'true'
                 }
             }
         }
@@ -49,4 +50,4 @@ describe('Deep-has', sandbox(function () {
         res[4].should.deep.equal({ 'boom.bosh': obj.boom.bosh });
     });
 
-}));
+});
