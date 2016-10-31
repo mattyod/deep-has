@@ -3,7 +3,7 @@
 module.exports = function (obj, key) {
     var matches = [];
 
-    var itterate = function itterate(object, path) {
+    var iterate = function iterate(object, path) {
         var match, item;
 
         var newPath = function newPath(add) {
@@ -18,13 +18,13 @@ module.exports = function (obj, key) {
 
         for (item in object) {
             if (object.hasOwnProperty(item) && typeof object[item] === 'object') {
-                itterate(object[item], newPath(item));
+                iterate(object[item], newPath(item));
             }
         }
 
     };
 
-    itterate(obj);
+    iterate(obj);
 
     return matches;
 
